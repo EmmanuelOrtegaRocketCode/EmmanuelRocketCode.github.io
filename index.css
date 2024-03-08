@@ -1,4 +1,11 @@
 #qrcode {
+    display: flex;
+    width: 160px;
+    height: 160px;
+    padding: var(--spacing-md, 8px);
+    flex-direction: column;
+    align-items: center;
+    gap: 7.2px;
     border-radius: var(--radius-xl, 12px);
     background: var(--GRADIENT-MIX, linear-gradient(90deg, #902280 0%, #0F90A9 100%));
     /* Qualitas/2 */
