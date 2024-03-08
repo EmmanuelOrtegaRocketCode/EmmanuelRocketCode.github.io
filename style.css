@@ -1,11 +1,12 @@
 #qrcode {
     width: 144px;
     height: 144px;
+    margin: 30px;
     flex-shrink: 0;
 }
 
 
-.border-qr {
+#border-qr {
     display: flex;
     width: 160px;
     height: 160px;
@@ -14,8 +15,7 @@
     align-items: center;
     gap: 7.2px;
     border-radius: var(--radius-xl, 12px);
-
-background: var(--GRADIENT-MIX, linear-gradient(90deg, #902280 0%, #0F90A9 100%));
-/* Qualitas/2 */
-box-shadow: 0px 5px 12px -1px rgba(0, 0, 0, 0.15);
+    background: var(--GRADIENT-MIX, linear-gradient(90deg, #902280 0%, #0F90A9 100%));
+    /* Qualitas/2 */
+    box-shadow: 0px 5px 12px -1px rgba(0, 0, 0, 0.15);
 }
